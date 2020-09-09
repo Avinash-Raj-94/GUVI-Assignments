@@ -1,0 +1,9 @@
+Objects and its representation in JS:
+
+     Objects are same in all programming languages, conceptually i.e they represent real-world things that we want to represent inside our programs with characteristics/properties and methods.
+For Eg. If your object is a student, it will have properties like name, age, address, id, etc.
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).Object properties can be any of the three primitive data types, or any of the abstract data types, such as another object.
+
+Objects are mutable: They are addressed by reference, not by value. They must contain a key and value for each element to process.
+Variables inside an object are called as properties. Objects in real-life have multiple properties and all the properties will be stored inside an object.All objects created in this way inherits all properties and methods from its prototype objects. Prototypes can have prototypes and those can have prototypes and so on. This is referred to as prototype chaining in JavaScript.
