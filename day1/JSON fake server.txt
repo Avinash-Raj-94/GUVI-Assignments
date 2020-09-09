@@ -1,0 +1,9 @@
+Link: http://localhost:3000/posts
+Output:
+[
+  {
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  }
+]
