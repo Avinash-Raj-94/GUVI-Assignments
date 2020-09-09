@@ -1,0 +1,23 @@
+Differences between Browser JS (Console) vs Node.js:-
+
+1) Javascript is a popular programming language and it runs in any web browser with a good web browser.Node.js is an interpreter and environment for the JavaScript with some specific useful libraries which JS programming can be used separately
+
+2)Utility:
+
+->Browser JS: Javascript is mainly used for any client side activity for the web application, for example refreshing the page in a specific interval, possible attribute validation or provide any dynamic changes in web app pages without refreshing that particular web page
+
+-> Node JS:It is commonly used by some of the best IT companies providing software solutions for performing or accessing any non-blocking operation of operating system, like executing or creating a shell script or accessing the hardware specific information or running any job in the backend.
+
+3) Running Engine:
+
+->Browser JS: JavaScript running any engine like JavaScript Core (Safari), Spider monkey (FireFox), V8 (Google Chrome).
+
+->Node js:Node.js only runs in a V8 engine that is mainly used by Google Chrome. And, JS program which will be written with the help of Node.js library will always run in the V8 Engine.
+
+4)JavaScript is mainly used for the client-side activity for one particular web application. Some of these activities can be dynamic page display in some schedule time interval, addressing business validation or basic Ajax call kind of task. Node.js is mainly used for running or accessing any operating system for the non-blocking operation.
+
+5)Window:
+
+-> Browser JS: "window" is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+
+->Node.js:  Node doesn't have a predefined "window" object cause it doesn't have a window to draw anything.
