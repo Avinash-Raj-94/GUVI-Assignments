@@ -1,0 +1,10 @@
+Output:
+
+number
+number
+string
+boolean
+object
+undefined
+object
+object
