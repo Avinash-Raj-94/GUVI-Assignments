@@ -1,0 +1,52 @@
+Different tags used in HTML resume and other imp tags:
+
+<html>- tag represents the root of an HTML document.It is the container for all other HTML elements.
+
+<head>- tag element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+The following elements can go inside the <head> element:
+<title> (required in every HTML document)
+<style>
+<base>
+<link>
+<meta>
+<script>
+<noscript>
+
+<body>- element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc
+
+<id> - is used to specify a unique id for an HTML element.
+
+<class>-is used to specify a class for an HTML element.Multiple HTML elements can share the same class
+
+<div> -tag defines a division or a section in an HTML document
+
+<table>- tag defines an HTML table
+
+<tr> tag defines a row in an HTML table
+
+<th> - tag defines a header cell in an HTML table
+
+<td> -tag defines a standard data cell in an HTML table.
+
+<font> - specify the font face, font size, and color of text
+
+<image>- tag is used to embed an image in an HTML page
+
+<span>- tag is an inline container used to mark up a part of a text, or a part of a document
+
+<header> - element represents a container for introductory content or a set of navigational links
+
+<br>- force a single line break.
+
+The <h1> to <h6> tags are used to define HTML headings.
+<h1> defines the most important heading. <h6> defines the least important heading
+
+<p>- tag defines a paragraph
+
+<hr>-tag defines a thematic break in an HTML page
+
+<ul>-tag defines an unordered (bulleted) list.
+
+<li>-tag defines a list item.
+
+<style> tag is used to define style information (CSS) for a document.
