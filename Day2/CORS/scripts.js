@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest()
-var url_string = 'https://cors-anywhere.herokuapp.com/https://api.domainsdb.info/v1/domains/search?domain=facebook&zone=com';
+var url_string = 'https://cors-anywhere.herokuapp.com/https://api.domainsdb.info/v1/domains/search?domain=facebook&zone=com';// Adding Heroku as a proxy to access CORS site
 
 // Open a new connection, using the GET request on the URL endpoint
 request.open('GET',url_string , true) 
