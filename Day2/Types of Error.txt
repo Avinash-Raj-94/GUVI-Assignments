@@ -1,0 +1,108 @@
+Types of Error:
+
+1. Uncaught TypeError: Cannot read property
+
+This error occurs in Chrome Browser when you read a property or call a method on an undefined object.
+Solution: This is easy to fix. The simplest way: Initialize state with reasonable default values in the constructor.
+
+2. TypeError: ‘undefined’ is not an object (evaluating
+
+This is an error that occurs in Safari when you read a property or call a method on an undefined object. You can test this very easily in the Safari Developer Console.
+This is essentially the same as the above error for Chrome, but Safari uses a different error message.
+
+3. TypeError: null is not an object (evaluating
+
+This is an error that occurs in Safari when you read a property or call a method on a null object. 
+You can test this very easily in the Safari Developer Console.
+Solution: we can resolve the issue by adding an event listener that will notify us when the page is ready. 
+Once the addEventListener is fired, the init() method can make use of the DOM elements
+
+document.addEventListener('readystatechange', function() {
+    if (document.readyState === "complete") {
+      init();
+    }
+  });
+  
+4. (unknown): Script error
+
+The Script error occurs when an uncaught JavaScript error crosses domain boundaries in violation of the cross-origin policy.
+This is a browser security measure intended to prevent passing data across domains that otherwise wouldn’t be allowed to communicate.
+
+Solution:
+ 1)JavaScript files will be served from, create an .htaccess file with the following contents:
+ 
+ Header add Access-Control-Allow-Origin "*"
+ 
+ 2)Set crossorigin="anonymous" on the script tag
+ 
+5. TypeError: Object doesn’t support property
+
+This is an error that occurs in IE when you call an undefined method. You can test this in the IE Developer Console.
+This is equivalent to the error "TypeError: ‘undefined’ is not a function" in Chrome. Yes, different browsers can have different error messages for the same logical error.
+This is a common problem for IE in web applications that employ JavaScript namespacing. When this is the case, the problem 99.9% of the time is IE’s inability to bind methods within the current namespace to the this keyword
+
+Solution: the safest bet when using JS namespacing is to always prefix with the actual namespace.
+
+Rollbar.isAwesome();
+
+6. TypeError: ‘undefined’ is not a function
+
+This is an error that occurs in Chrome when you call an undefined function. You can test this in the Chrome Developer Console and Mozilla Firefox Developer Console.
+
+Solution:
+1)var self=this;  // save reference to 'this', while it's still this!
+document.addEventListener("click", function(){
+  self.clearBoard();
+});
+
+2)document.addEventListener("click",this.clearBoard.bind(this));  //Bind 
+
+7. Uncaught RangeError:
+
+This is an error that occurs in Chrome under a couple of circumstances. One is when you call a recursive function that does not terminate.
+ You can test this in the Chrome Developer Console.It may also happen if you pass a value to a function that is out of range. 
+ Many functions accept only a specific range of numbers for their input values
+ 
+ Solution: 
+var num = 2.555555;
+document.writeln(num.toExponential(4));  //OK
+document.writeln(num.toExponential(-2)); //range error!   // Number.toExponential(digits)-0-100
+
+num = 2.9999;
+document.writeln(num.toFixed(2));   //OK
+document.writeln(num.toFixed(105));  //range error!       // Number.toFixed(digits)= 0-100
+
+num = 2.3456;
+document.writeln(num.toPrecision(1));   //OK              //Number.toPrecision(digits)= 1-100
+document.writeln(num.toPrecision(0));  //range error!
+
+8. TypeError: Cannot read property ‘length’
+This is an error that occurs in Chrome because of reading length property for an undefined variable. 
+You can test this in the Chrome Developer Console. 
+
+ar testArray= ["Test"];
+
+function testFunction(testArray) {
+    for (var i = 0; i < testArray.length; i++) {
+      console.log(testArray[i]);
+    }
+}
+
+testFunction();
+
+Solution:
+1)Remove parameters in the function declaration statement
+2) invoke the function passing it the array 
+
+9. Uncaught TypeError: Cannot set property
+When we try to access an undefined variable it always returns undefined and we cannot get or set any property of undefined.
+ In that case, an application will throw “Uncaught TypeError cannot set property of undefined.
+ 
+eg: var test= undefined;
+test.value=0;                       // throw erroe since value is always undefined
+
+10. ReferenceError: event is not defined
+This error is thrown when you try to access a variable that is undefined or is outside the current scope. You can test it very easily in Chrome browser.
+If you’re getting this error when using the event handling system, make sure you use the event object passed in as a parameter
+ 
+ 
