@@ -1,0 +1,195 @@
+body{
+    margin:5% 10% ;
+}
+
+div{
+    display: block;
+    
+}
+
+.border1 {
+    border: 2px solid black;
+}
+
+.Slantdiv1 {
+    
+        padding-bottom: 20%;
+        background-color: #202040;
+        transform: skew(0deg, 0deg) translateY(-35px);
+    
+}
+
+.Slantdiv2 {
+    padding: 5% ;
+    
+    background-color: #202040;
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+.top-containern {
+    transform: skew(0deg, 0deg);
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-top: 5%;
+}
+.top-container {
+    transform: skew(0deg, 4deg);
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+h1 ,h2 {
+    text-align: Center;
+    color: white;
+    
+}
+span{
+    font-size: 7rem;
+    font-family:'butterfly kids', cursive;
+}
+
+.container2{
+    background-color:papayawhip;
+}
+.para1{
+    color: rgb(15, 15, 15);
+    text-align: left;
+    padding-right: 5%;
+
+}
+
+.header2{
+    text-align: left;
+    color:  rgb(15, 15, 15);
+}
+
+.slantdiv3{
+    padding: 5% ;
+    background-color: #19193b;
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+
+.para3{
+    color: rgb(236, 227, 227);
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+
+}
+
+.header3{
+    text-align:left;
+    color:  rgb(236, 228, 228);
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+.top-container1 {
+    transform: skew(0deg, 4deg);
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.slantdiv4{
+    padding: 5% ;
+    background-color: rgb(224, 215, 200);
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+
+.para4{
+    color: rgb(15, 15, 15);
+    text-align: left;
+    padding-right: 50%;
+
+}
+
+.header4{
+    text-align: left;
+    color:  rgb(15, 15, 15);
+    padding-right: 60%;
+}
+.top-container4 {
+    transform: skew(0deg, 4deg);
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.slantdiv5{
+    padding: 5% ;
+    background-color:peachpuff;
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+
+.para5{
+    color: rgb(107, 85, 85);
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+
+}
+
+.header5{
+    text-align:left;
+    color:  rgb(107, 85, 85);
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+.top-container5 {
+    transform: skew(0deg, 4deg);
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.slantdiv6{
+    padding: 5% ;
+    background-color:pink;
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+
+.para6{
+    color: rgb(15, 15, 15);
+    text-align: left;
+    padding-right: 50%;
+
+}
+
+.header6{
+    text-align: left;
+    color:  rgb(15, 15, 15);
+    padding-right: 60%;
+}
+.top-container6 {
+    transform: skew(0deg, 4deg);
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.slantdiv7{
+    padding: 5% ;
+    background-color:rgb(159, 159, 248);
+    transform: skew(0deg, -4deg) translateY(-130px);
+}
+
+.para7{
+    color: rgb(102, 79, 79);
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+
+}
+
+.header7{
+    text-align:left;
+    color:  rgb(102, 79, 79);
+    margin-left: 5%;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+.top-container7 {
+    transform: skew(0deg, 4deg);
+    margin-right: 5%;
+    margin-top: 3%;
+}
