@@ -1,0 +1,52 @@
+.page1{
+    text-align: center;
+    font-family:"Lucida Console", Courier, monospace;
+}
+
+.date{
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+}
+.body{
+    margin-top: 20px;
+}
+
+.footer{
+    border-bottom:0.5px solid black;  
+    margin-bottom: 20px;
+}
+
+.margin{
+    margin: 10px;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+.margin1{
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.header{
+font-size: 100px;
+padding-left: 30px;
+padding-bottom: 5px;
+text-align: center;
+}
+
+.footer1{
+    border-bottom:0.5px solid black;
+    margin-bottom: 15px;
+}
+
+.lorem{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer2{
+    border-bottom:0.5px solid black;
+}
